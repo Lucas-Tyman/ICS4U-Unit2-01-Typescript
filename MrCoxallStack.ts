@@ -7,27 +7,24 @@
  */
 
 export class MrCoxallStack {
-  private stackList: number[]
+  private stackList: string[]
 
   // Creates the stack
   public constructor() {
     this.stackList = []
   }
 
-  // Push method  add elements to the stack
-  public push(
-  }
-
   // Pushes the values to the stack
   public push(string: stringPushed) {
-    this.stackAsList.push(stringPushed)
+    this.stackList.push(stringPushed)
   }
 
   // Returns the stack
   public showStack() {
-    let stackItems = this.stackAsList[0]
+    let stackItems = this.stackList[0]
 
-    for (let counter = 1; counter < this.stackAsList[counter]
+    for (let counter = 1; counter < this.stackList.length; counter++) {
+      stackItems = stackItems + ", " + this.stackList[counter]
   }
 
     return stackItems
