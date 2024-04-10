@@ -4,7 +4,7 @@
  * By: Lucas Tyman
  * Verison 1.0
  * Since: 2024-03-20
- * */
+ */
 
 import { MrCoxallStack } from './MrCoxallStack'
 import { createPrompt } from 'bun-promptx'

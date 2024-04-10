@@ -25,7 +25,7 @@ export class MrCoxallStack {
 
     for (let counter = 1; counter < this.stackList.length; counter++) {
       stackItems = stackItems + ", " + this.stackList[counter]
-  }
+    }
 
     return stackItems
   }
